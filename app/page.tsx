@@ -31,8 +31,8 @@ export default function HomePage() {
       <Navbar />
       <HeroSection product={featuredProduct} />
 
-      <section className="px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
-        <div className="mx-auto max-w-[1440px] rounded-[2.5rem] bg-[#efefec] p-6 shadow-[0_22px_60px_rgba(0,0,0,0.12)] sm:p-8 lg:p-12">
+      <section className="px-4 py-6 sm:px-6 lg:px-8 lg:py-12">
+        <div className="mx-auto max-w-[1440px] rounded-[1.8rem] bg-[#efefec] p-5 shadow-[0_22px_60px_rgba(0,0,0,0.12)] sm:rounded-[2.5rem] sm:p-8 lg:p-12">
           <div className="grid gap-10 lg:grid-cols-[0.8fr_1.2fr] lg:items-end">
             <SectionHeading
               eyebrow="Showroom"
@@ -41,7 +41,7 @@ export default function HomePage() {
             />
 
             <div className="grid gap-4 sm:grid-cols-3">
-              <div className="rounded-[1.7rem] bg-white p-5 shadow-[0_14px_36px_rgba(0,0,0,0.05)]">
+              <div className="rounded-[1.4rem] bg-white p-4 shadow-[0_14px_36px_rgba(0,0,0,0.05)] sm:rounded-[1.7rem] sm:p-5">
                 <p className="text-[10px] uppercase tracking-[0.35em] text-black/35">Showroom</p>
                 <p className="mt-3 text-lg font-medium text-black">Sahline, route Jammel</p>
               </div>
@@ -58,8 +58,8 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
-        <div className="mx-auto max-w-[1440px] space-y-8 rounded-[2.5rem] bg-white p-6 shadow-[0_22px_60px_rgba(0,0,0,0.08)] sm:p-8 lg:p-12">
+      <section className="px-4 py-6 sm:px-6 lg:px-8 lg:py-12">
+        <div className="mx-auto max-w-[1440px] space-y-6 rounded-[1.8rem] bg-white p-5 shadow-[0_22px_60px_rgba(0,0,0,0.08)] sm:space-y-8 sm:rounded-[2.5rem] sm:p-8 lg:p-12">
           <SectionHeading
             eyebrow="Catalogue"
             title="Les modèles MotoCity actuellement remis en valeur."
@@ -69,8 +69,8 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
-        <div className="mx-auto rounded-[2.5rem] bg-[#efefec] p-6 shadow-[0_22px_60px_rgba(0,0,0,0.12)] sm:p-8 lg:max-w-[1440px] lg:p-12">
+      <section className="px-4 py-6 sm:px-6 lg:px-8 lg:py-12">
+        <div className="mx-auto rounded-[1.8rem] bg-[#efefec] p-5 shadow-[0_22px_60px_rgba(0,0,0,0.12)] sm:rounded-[2.5rem] sm:p-8 lg:max-w-[1440px] lg:p-12">
           <div className="grid gap-8 lg:grid-cols-2">
             <SectionHeading
               eyebrow="Marques"
@@ -80,7 +80,7 @@ export default function HomePage() {
 
             <div className="grid gap-4 sm:grid-cols-2">
               {brands.map((brand) => (
-                <article key={brand.name} className="rounded-[1.7rem] bg-white p-5 shadow-[0_14px_36px_rgba(0,0,0,0.05)]">
+                <article key={brand.name} className="rounded-[1.4rem] bg-white p-4 shadow-[0_14px_36px_rgba(0,0,0,0.05)] sm:rounded-[1.7rem] sm:p-5">
                   <p className="text-[10px] uppercase tracking-[0.35em] text-black/35">{brand.name}</p>
                   <p className="mt-3 text-sm leading-7 text-black/60">{brand.description}</p>
                 </article>
@@ -90,10 +90,10 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
-        <div className="mx-auto rounded-[2.5rem] bg-white p-6 shadow-[0_22px_60px_rgba(0,0,0,0.08)] sm:p-8 lg:max-w-[1440px] lg:p-12">
+      <section className="px-4 py-6 sm:px-6 lg:px-8 lg:py-12">
+        <div className="mx-auto rounded-[1.8rem] bg-white p-5 shadow-[0_22px_60px_rgba(0,0,0,0.08)] sm:rounded-[2.5rem] sm:p-8 lg:max-w-[1440px] lg:p-12">
           <div className="grid gap-4 md:grid-cols-3">
-            <article className="rounded-[1.7rem] bg-[#f3f3ef] p-6">
+            <article className="rounded-[1.4rem] bg-[#f3f3ef] p-5 sm:rounded-[1.7rem] sm:p-6">
               <p className="text-[10px] uppercase tracking-[0.35em] text-black/35">Facilités</p>
               <h3 className="mt-3 text-xl font-medium text-black">Paiement par facilité</h3>
               <p className="mt-3 text-sm leading-7 text-black/60">Des offres régulièrement communiquées sur les réseaux du showroom selon les modèles et les disponibilités.</p>
@@ -112,11 +112,11 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
-        <div className="mx-auto grid max-w-[1440px] gap-8 rounded-[2.5rem] bg-[#111111] p-6 text-white shadow-[0_24px_60px_rgba(0,0,0,0.16)] sm:p-8 lg:grid-cols-[1.2fr_0.8fr] lg:p-12">
+      <section className="px-4 py-6 sm:px-6 lg:px-8 lg:py-12">
+        <div className="mx-auto grid max-w-[1440px] gap-6 rounded-[1.8rem] bg-[#111111] p-5 text-white shadow-[0_24px_60px_rgba(0,0,0,0.16)] sm:gap-8 sm:rounded-[2.5rem] sm:p-8 lg:grid-cols-[1.2fr_0.8fr] lg:p-12">
           <div className="space-y-4">
             <p className="text-[11px] uppercase tracking-[0.45em] text-white/45">Coordonnées</p>
-            <h2 className="text-3xl font-semibold uppercase leading-[0.95] tracking-[-0.04em] sm:text-4xl lg:text-5xl">
+            <h2 className="text-2xl font-semibold uppercase leading-[0.95] tracking-[-0.04em] sm:text-4xl lg:text-5xl">
               Prix, disponibilité, visite showroom et demande de modèle.
             </h2>
             <div className="space-y-2 text-sm leading-8 text-white/65 sm:text-base">
