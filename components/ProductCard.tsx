@@ -18,7 +18,7 @@ export function ProductCard({ product }: { product: Product }) {
 
       <div className="space-y-5 p-6">
         <div className="space-y-3">
-          <p className="text-[11px] uppercase tracking-[0.38em] text-black/35">{product.collection}</p>
+          <p className="text-[11px] uppercase tracking-[0.38em] text-black/35">{product.brand} · {product.collection}</p>
           <h3 className="text-3xl font-semibold uppercase tracking-[-0.04em] text-black">{product.name}</h3>
           <p className="text-sm leading-7 text-black/60">{product.description}</p>
         </div>
@@ -29,8 +29,8 @@ export function ProductCard({ product }: { product: Product }) {
             <p className="mt-2 font-medium">{product.speed}</p>
           </div>
           <div>
-            <p className="text-[10px] uppercase tracking-[0.25em] text-black/40">Range</p>
-            <p className="mt-2 font-medium">{product.range}</p>
+            <p className="text-[10px] uppercase tracking-[0.25em] text-black/40">Brand</p>
+            <p className="mt-2 font-medium">{product.brand}</p>
           </div>
           <div>
             <p className="text-[10px] uppercase tracking-[0.25em] text-black/40">Price</p>

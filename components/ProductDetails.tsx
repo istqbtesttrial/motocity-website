@@ -8,7 +8,7 @@ export function ProductDetails({ product }: { product: Product }) {
       <div className="mx-auto max-w-[1440px] overflow-hidden rounded-[2.5rem] bg-[#efefec] shadow-[0_28px_70px_rgba(0,0,0,0.16)]">
         <div className="grid lg:grid-cols-[1.05fr_0.95fr]">
           <div className="relative min-h-[420px] bg-[#111111] p-6 sm:p-8 lg:min-h-[760px] lg:p-12">
-            <p className="text-[11px] uppercase tracking-[0.45em] text-white/45">{product.collection}</p>
+            <p className="text-[11px] uppercase tracking-[0.45em] text-white/45">{product.brand} · {product.collection}</p>
             <p className="absolute right-10 top-10 text-[64px] font-semibold uppercase tracking-[-0.06em] text-white/12 sm:text-[100px] lg:text-[140px]">
               {product.name.split(' ')[0]}
             </p>
@@ -22,12 +22,12 @@ export function ProductDetails({ product }: { product: Product }) {
                   <p className="mt-2 font-medium">{product.speed}</p>
                 </div>
                 <div>
-                  <p className="text-[10px] uppercase tracking-[0.28em] text-white/55">Range</p>
-                  <p className="mt-2 font-medium">{product.range}</p>
+                  <p className="text-[10px] uppercase tracking-[0.28em] text-white/55">Category</p>
+                  <p className="mt-2 font-medium">{product.category}</p>
                 </div>
                 <div>
-                  <p className="text-[10px] uppercase tracking-[0.28em] text-white/55">Charge</p>
-                  <p className="mt-2 font-medium">{product.chargeTime}</p>
+                  <p className="text-[10px] uppercase tracking-[0.28em] text-white/55">Price</p>
+                  <p className="mt-2 font-medium">{product.price}</p>
                 </div>
               </div>
             </div>
@@ -35,11 +35,12 @@ export function ProductDetails({ product }: { product: Product }) {
 
           <div className="space-y-8 p-6 sm:p-8 lg:p-12">
             <div className="space-y-4">
-              <p className="text-[11px] uppercase tracking-[0.45em] text-black/35">MotoCity Product</p>
+              <p className="text-[11px] uppercase tracking-[0.45em] text-black/35">Produit MotoCity</p>
               <h1 className="text-4xl font-semibold uppercase leading-[0.95] tracking-[-0.05em] text-black sm:text-5xl lg:text-6xl">
                 {product.name}
               </h1>
               <p className="max-w-xl text-base leading-8 text-black/60">{product.tagline}</p>
+              <p className="text-sm uppercase tracking-[0.3em] text-black/35">{product.company}</p>
               <p className="max-w-xl text-sm leading-7 text-black/55 sm:text-base">{product.description}</p>
             </div>
 
@@ -53,7 +54,7 @@ export function ProductDetails({ product }: { product: Product }) {
             </div>
 
             <div className="rounded-[1.8rem] border border-black/10 bg-white p-6 shadow-[0_14px_36px_rgba(0,0,0,0.05)]">
-              <p className="text-[11px] uppercase tracking-[0.38em] text-black/35">Highlights</p>
+              <p className="text-[11px] uppercase tracking-[0.38em] text-black/35">Points clés</p>
               <ul className="mt-4 space-y-3 text-sm leading-7 text-black/60">
                 {product.highlights.map((item) => (
                   <li key={item}>• {item}</li>

@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
 const links = [
-  { href: '/', label: 'Home' },
-  { href: '/products', label: 'Products' },
+  { href: '/', label: 'Accueil' },
+  { href: '/products', label: 'Modèles' },
   { href: '/contact', label: 'Contact' },
 ]
 
@@ -26,12 +26,14 @@ export function Navbar() {
         </nav>
 
         <div className="flex items-center gap-3">
-          <Link
-            href="/contact"
+          <a
+            href="https://www.instagram.com/motocitys/"
+            target="_blank"
+            rel="noreferrer"
             className="rounded-full border border-black/10 bg-white px-4 py-2 text-sm font-medium text-black transition hover:-translate-y-0.5 hover:shadow-[0_12px_30px_rgba(0,0,0,0.08)]"
           >
-            Log In
-          </Link>
+            Instagram
+          </a>
           <Link
             href="/contact"
             className="hidden rounded-full bg-black px-5 py-2.5 text-sm font-medium text-white transition hover:-translate-y-0.5 hover:bg-neutral-800 sm:inline-flex"

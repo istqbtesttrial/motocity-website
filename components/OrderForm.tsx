@@ -52,18 +52,18 @@ export function OrderForm({ products }: OrderFormProps) {
   return (
     <div className="grid gap-8 lg:grid-cols-[0.85fr_1fr]">
       <div className="space-y-6 rounded-[2rem] bg-[#111111] p-6 text-white shadow-[0_24px_60px_rgba(0,0,0,0.14)] sm:p-8 lg:p-10">
-        <p className="text-[11px] uppercase tracking-[0.45em] text-white/45">Order Request</p>
+        <p className="text-[11px] uppercase tracking-[0.45em] text-white/45">Demande MotoCity</p>
         <h1 className="text-4xl font-semibold uppercase leading-[0.95] tracking-[-0.05em] sm:text-5xl lg:text-6xl">
           Une demande simple,
           <br />
           une expérience premium.
         </h1>
         <p className="max-w-xl text-sm leading-8 text-white/65 sm:text-base">
-          Sélectionnez un modèle MotoCity, laissez vos coordonnées, et l’équipe revient vers vous pour finaliser la demande sans tunnel e-commerce lourd.
+          Sélectionnez un modèle MotoCity, laissez vos coordonnées, et l’équipe de Sahline vous recontacte pour confirmer disponibilité, prix et modalités.
         </p>
         <div className="rounded-[1.7rem] border border-white/10 bg-white/5 p-5 text-sm leading-7 text-white/60 backdrop-blur-sm">
           <p className="text-white">Ce flux remplace le paiement en ligne.</p>
-          <p>Une confirmation est envoyée au client, pendant que l’administration reçoit la demande complète.</p>
+          <p>Une confirmation est envoyée au client, pendant que l’administration MotoCity reçoit la demande complète.</p>
         </div>
       </div>
 

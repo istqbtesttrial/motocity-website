@@ -55,7 +55,7 @@ export function HeroSection({ product }: { product: Product }) {
                   Motion
                 </h1>
                 <p className="hero-fade-up max-w-sm text-sm leading-7 text-black/60 sm:text-base">
-                  Une expérience showroom pensée pour valoriser chaque scooter, avec une présentation claire, statutaire et fluide.
+                  MotoCity met en scène les scooters, accessoires et équipements avec une présentation plus premium, plus claire et plus statutaire.
                 </p>
               </div>
 
@@ -122,11 +122,11 @@ export function HeroSection({ product }: { product: Product }) {
                   </div>
                   <div>
                     <p className="text-[10px] uppercase tracking-[0.28em] text-white/55">Range</p>
-                    <p className="mt-2 text-sm font-medium sm:text-base">{product.range}</p>
+                    <p className="mt-2 text-sm font-medium sm:text-base">{product.brand}</p>
                   </div>
                   <div>
-                    <p className="text-[10px] uppercase tracking-[0.28em] text-white/55">Charge</p>
-                    <p className="mt-2 text-sm font-medium sm:text-base">{product.chargeTime}</p>
+                    <p className="text-[10px] uppercase tracking-[0.28em] text-white/55">Price</p>
+                    <p className="mt-2 text-sm font-medium sm:text-base">{product.price}</p>
                   </div>
                 </div>
               </div>
