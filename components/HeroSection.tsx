@@ -103,14 +103,16 @@ export function HeroSection({ product }: { product: Product }) {
                 EV-B
               </p>
 
-              <div className="hero-bike relative z-10 h-[260px] w-full max-w-[640px] sm:h-[340px] lg:h-[420px]">
+              <div className="hero-bike relative z-10 h-[320px] w-full max-w-[720px] sm:h-[400px] lg:h-[500px]">
+                <div className="absolute inset-0 rounded-[2rem] bg-[radial-gradient(circle_at_50%_65%,rgba(255,255,255,0.22),transparent_38%)] blur-2xl" />
+                <div className="absolute inset-0 rounded-[2rem] bg-gradient-to-tr from-[#111111] via-transparent to-white/6 mix-blend-screen" />
                 <Image
                   src={product.image}
                   alt={product.name}
                   fill
                   priority
                   sizes="(max-width: 1024px) 100vw, 50vw"
-                  className="object-contain drop-shadow-[0_28px_40px_rgba(0,0,0,0.5)]"
+                  className="object-contain mix-blend-lighten contrast-[1.03] brightness-[1.03] saturate-[0.92] drop-shadow-[0_28px_40px_rgba(0,0,0,0.45)]"
                 />
               </div>
 

@@ -410,7 +410,10 @@ export const products: Product[] = [
   },
 ]
 
-export const featuredProduct = products[0]
+export const featuredProduct = {
+  ...products[0],
+  image: '/motocity/hero-cappuccino-cutout.png',
+}
 
 export function getProductBySlug(slug: string) {
   return products.find((product) => product.slug === slug)
