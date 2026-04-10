@@ -9,7 +9,7 @@ export default function ContactPage() {
     <main className="pb-4">
       <Navbar />
       <section className="px-4 py-10 sm:px-6 lg:px-8 lg:py-16">
-        <div className="mx-auto max-w-[1440px] rounded-[2.5rem] bg-[#efefec] p-6 shadow-[0_22px_60px_rgba(0,0,0,0.12)] sm:p-8 lg:p-12">
+        <div className="arc-panel mx-auto max-w-[1440px] rounded-[2.5rem] bg-[#efefec] p-6 shadow-[0_22px_60px_rgba(0,0,0,0.12)] sm:p-8 lg:p-12">
           <Suspense fallback={null}>
             <OrderForm products={products} />
           </Suspense>
