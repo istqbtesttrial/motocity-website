@@ -45,3 +45,24 @@ textarea {
   background: rgba(0, 0, 0, 0.14);
   color: #111111;
 }
+
+.arc-panel {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.arc-panel::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background: #070707;
+  clip-path: path('M100% 0% L58% 0% C50% 12% 44% 30% 44% 52% C44% 73% 50% 90% 60% 100% L100% 100% Z');
+}
+
+.arc-panel > * {
+  position: relative;
+  z-index: 1;
+}
