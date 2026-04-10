@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { Footer } from '@/components/Footer'
-import { HeroSection } from '@/components/HeroSection'
+import { HeroPremium } from '@/components/HeroPremium'
 import { Navbar } from '@/components/Navbar'
 import { ProductGrid } from '@/components/ProductGrid'
 import { SectionHeading } from '@/components/SectionHeading'
@@ -29,7 +29,7 @@ export default function HomePage() {
   return (
     <main className="pb-4">
       <Navbar />
-      <HeroSection product={featuredProduct} />
+      <HeroPremium product={featuredProduct} />
 
       <section className="px-4 py-6 sm:px-6 lg:px-8 lg:py-12">
         <div className="mx-auto max-w-[1440px] rounded-[1.8rem] bg-[#efefec] p-5 shadow-[0_22px_60px_rgba(0,0,0,0.12)] sm:rounded-[2.5rem] sm:p-8 lg:p-12">

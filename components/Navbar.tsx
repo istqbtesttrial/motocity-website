@@ -9,7 +9,7 @@ const links = [
 export function Navbar() {
   return (
     <header className="relative z-30 px-4 pt-4 sm:px-6 lg:px-8 lg:pt-6">
-      <div className="mx-auto flex max-w-[1440px] flex-wrap items-center justify-between gap-3 rounded-[1.6rem] border border-black/10 bg-white/75 px-4 py-3 shadow-[0_18px_40px_rgba(0,0,0,0.08)] backdrop-blur sm:rounded-full md:px-6">
+      <div className="mx-auto flex max-w-[1440px] flex-wrap items-center justify-between gap-3 overflow-hidden rounded-[1.6rem] border border-black/10 bg-[linear-gradient(90deg,rgba(255,255,255,0.78)_0%,rgba(255,255,255,0.78)_68%,rgba(17,17,17,0.96)_68%,rgba(17,17,17,0.98)_100%)] px-4 py-3 shadow-[0_18px_40px_rgba(0,0,0,0.08)] backdrop-blur sm:rounded-full md:px-6">
         <Link href="/" className="flex min-w-0 items-center gap-3 text-black">
           <span className="grid h-10 w-10 shrink-0 place-items-center rounded-full border border-black/10 bg-black text-xs font-semibold tracking-[0.2em] text-white">
             MC
@@ -30,13 +30,13 @@ export function Navbar() {
             href="https://www.instagram.com/motocitys/"
             target="_blank"
             rel="noreferrer"
-            className="rounded-full border border-black/10 bg-white px-3 py-2 text-xs font-medium text-black transition hover:-translate-y-0.5 hover:shadow-[0_12px_30px_rgba(0,0,0,0.08)] sm:px-4 sm:text-sm"
+            className="rounded-full border border-white/14 bg-white/10 px-3 py-2 text-xs font-medium text-white transition hover:-translate-y-0.5 hover:shadow-[0_12px_30px_rgba(0,0,0,0.16)] sm:px-4 sm:text-sm"
           >
             Instagram
           </a>
           <Link
             href="/contact"
-            className="rounded-full bg-black px-4 py-2 text-xs font-medium text-white transition hover:-translate-y-0.5 hover:bg-neutral-800 sm:px-5 sm:py-2.5 sm:text-sm"
+            className="rounded-full bg-white px-4 py-2 text-xs font-medium text-black transition hover:-translate-y-0.5 hover:bg-neutral-100 sm:px-5 sm:py-2.5 sm:text-sm"
           >
             Demander
           </Link>
