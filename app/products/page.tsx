@@ -9,7 +9,7 @@ export default function ProductsPage() {
     <main className="pb-4">
       <Navbar />
       <section className="px-4 py-10 sm:px-6 lg:px-8 lg:py-16">
-        <div className="arc-panel mx-auto max-w-[1440px] space-y-8 rounded-[2.5rem] bg-[#efefec] p-6 shadow-[0_22px_60px_rgba(0,0,0,0.12)] sm:p-8 lg:p-12">
+        <div className="arc-panel mx-auto max-w-[1440px] space-y-8 rounded-[2.5rem] bg-white p-6 shadow-[0_22px_60px_rgba(0,0,0,0.12)] sm:p-8 lg:p-12">
           <SectionHeading
             eyebrow="Products"
             title="Le catalogue MotoCity"
