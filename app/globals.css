@@ -58,8 +58,8 @@ textarea {
   inset: 0;
   z-index: 0;
   pointer-events: none;
-  background: linear-gradient(180deg, #121212 0%, #060606 100%);
-  clip-path: path('M100% 0% L62% 0% C54% 12% 47% 31% 46% 52% C45% 73% 52% 90% 64% 100% L100% 100% Z');
+  background: #070707;
+  clip-path: path('M100% 0% L58% 0% C50% 12% 44% 30% 44% 52% C44% 73% 50% 90% 60% 100% L100% 100% Z');
 }
 
 .arc-panel > * {

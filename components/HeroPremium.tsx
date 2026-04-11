@@ -9,7 +9,7 @@ export function HeroPremium({ product }: { product: Product }) {
       <div className="hero-stage">
         <div className="hero-blade" aria-hidden="true">
           <svg viewBox="0 0 100 100" preserveAspectRatio="none">
-            <path d="M100 0H62C54 12 47 31 46 52C45 73 52 90 64 100H100V0Z" />
+            <path d="M100 0H58C50 12 44 30 44 52C44 73 50 90 60 100H100V0Z" />
           </svg>
         </div>
 
