@@ -113,13 +113,13 @@ export default function HomePage() {
       </section>
 
       <section className="px-4 py-6 sm:px-6 lg:px-8 lg:py-12">
-        <div className="mx-auto grid max-w-[1440px] gap-6 rounded-[1.8rem] bg-[#111111] p-5 text-white shadow-[0_24px_60px_rgba(0,0,0,0.16)] sm:gap-8 sm:rounded-[2.5rem] sm:p-8 lg:grid-cols-[1.2fr_0.8fr] lg:p-12">
+        <div className="mx-auto grid max-w-[1440px] gap-6 rounded-[1.8rem] bg-white p-5 text-black shadow-[0_24px_60px_rgba(0,0,0,0.16)] sm:gap-8 sm:rounded-[2.5rem] sm:p-8 lg:grid-cols-[1.2fr_0.8fr] lg:p-12">
           <div className="space-y-4">
-            <p className="text-[11px] uppercase tracking-[0.45em] text-white/45">Coordonnées</p>
+            <p className="text-[11px] uppercase tracking-[0.45em] text-black/45">Coordonnées</p>
             <h2 className="text-2xl font-semibold uppercase leading-[0.95] tracking-[-0.04em] sm:text-4xl lg:text-5xl">
               Prix, disponibilité, visite showroom et demande de modèle.
             </h2>
-            <div className="space-y-2 text-sm leading-8 text-white/65 sm:text-base">
+            <div className="space-y-2 text-sm leading-8 text-black/65 sm:text-base">
               <p>Sahline, route Jammel, Tunisie</p>
               <p>+216 24 969 063 · +216 54 914 615</p>
               <p>stemongicity@gmail.com</p>
