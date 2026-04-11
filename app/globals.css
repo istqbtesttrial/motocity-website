@@ -56,13 +56,7 @@ textarea {
 }
 
 .arc-panel::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  z-index: 0;
-  pointer-events: none;
-  background: #070707;
-  clip-path: path('M100% 0% L58% 0% C50% 12% 44% 30% 44% 52% C44% 73% 50% 90% 60% 100% L100% 100% Z');
+  display: none;
 }
 
 .arc-panel > * {
